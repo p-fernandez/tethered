@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+h1 {
+  background: linear-gradient(90deg, orange 0%, yellow 35%, maroon 100%);
+  box-shadow:
+    0 2px 2px orange,
+    0 6px 5px maroon,
+    0 12px 10px yellow;
+  filter: drop-shadow(0 2px 2px orange) /* spaces */ drop-shadow(0 6px 5px maroon) drop-shadow(0 12px 10px #999);
+  text-shadow: 0 5px 10px black;
+  padding: 2rem;
+  font-size: 15rem;
+  font-weight: 600;
+  color: maroon;
+}
+
+section {
+  color: maroon;
+}
+
+pre {
+  color: black;
+}
+
+a {
+  color: maroon;
+}
