@@ -1,4 +1,3 @@
-
 const songs = [
   'Dust',
   'Nostalgia',
@@ -13,7 +12,7 @@ const songs = [
   'Complicit',
   'Cold',
   'The Hook',
-  'Time travel',
+  'Time Travel',
   'Home',
 ];
 
@@ -45,11 +44,19 @@ const bands = {
   'broken-lungs': {
     name: 'Broken Lungs',
   },
+  cephalee: {
+    name: 'Céphalée',
+    city: 'Lille',
+    country: 'France',
+  },
   'chaos-reigns': {
     name: 'Chaos Reigns',
   },
   'chasing-dolls': {
     name: 'Chasing Dolls',
+  },
+  coder: {
+    name: 'Coder',
   },
   'dead-heat': {
     name: 'Dead Heat',
@@ -57,6 +64,11 @@ const bands = {
   },
   'do-one': {
     name: 'Do One',
+  },
+  dodentocht: {
+    name: 'Dodentocht',
+    city: 'Eindhoven',
+    country: 'Netherlands',
   },
   dominate: {
     name: 'Dominate',
@@ -95,6 +107,10 @@ const bands = {
     name: 'Gross Misconduct',
     url: '',
   },
+  gulls: {
+    name: 'Gulls',
+    country: 'Germany',
+  },
   'hearing-tests': {
     name: 'Hearing Tests',
   },
@@ -105,6 +121,11 @@ const bands = {
   'hot-puds': {
     name: 'Hot Puds',
     url: '',
+  },
+  'i-recover': {
+    name: 'I Recover',
+    city: 'Cologne',
+    country: 'Germany',
   },
   'in-case-you-leave': {
     name: 'Incaseyouleave',
@@ -126,6 +147,11 @@ const bands = {
   louse: {
     name: 'Louse',
   },
+  meditation: {
+    name: 'Meditation',
+    city: 'Groningen',
+    country: 'Netherlands',
+  },
   'moist-crevice': {
     name: 'Moist Crevice',
     url: '',
@@ -144,6 +170,11 @@ const bands = {
   },
   overpower: {
     name: 'Overpower',
+  },
+  placid: {
+    name: 'Placid',
+    city: 'Cologne',
+    country: 'Germany',
   },
   prey: {
     name: 'Prey',
@@ -166,6 +197,9 @@ const bands = {
     name: 'Safest Spaces',
     url: '',
   },
+  'sarah-tonin': {
+    name: 'Sarah Tonin',
+  },
   'single-mothers': {
     name: 'Single Mothers',
     country: 'CAN',
@@ -184,9 +218,21 @@ const bands = {
     name: 'The Talking Kinds',
     url: '',
   },
+  'tu-la-llevas': {
+    name: 'Tú La Llevas',
+    country: 'Germany',
+  },
+  'try-hard': {
+    name: 'Try Hard',
+  },
   'winifer-odd': {
     name: 'Winifer Odd',
     url: '',
+  },
+  'wonderful-world': {
+    name: 'Wonderful World',
+    city: 'Cologne',
+    country: 'Germany',
   },
   yarraman: {
     name: 'Yarraman',
@@ -211,7 +257,6 @@ const venues = {
     city: 'London',
     country: 'UK',
   },
-
   'cav-arms-stockwell': {
     name: 'The Cavendish Arms',
     borough: 'Stockwell',
@@ -228,6 +273,11 @@ const venues = {
     city: 'Reading',
     country: 'UK',
   },
+  'fla-fla': {
+    name: 'Fla Fla',
+    city: 'Herford',
+    country: 'Germany',
+  },
   'grand-burstin-hotel': {
     name: 'The Grand Burstin Hotel',
     city: 'Folkenstone',
@@ -238,6 +288,11 @@ const venues = {
     borough: 'Hackney',
     city: 'London',
     country: 'UK',
+  },
+  'high-voltage-bar': {
+    name: 'High Voltage Bar',
+    city: 'Lille',
+    country: 'France',
   },
   'hope-and-anchor': {
     name: 'The Hope & Anchor',
@@ -266,6 +321,16 @@ const venues = {
     city: 'London',
     country: 'UK',
   },
+  poortgebouw: {
+    name: 'Poortgebouw',
+    city: 'Rotterdam',
+    country: 'Netherlands',
+  },
+  privat: {
+    name: 'Privat',
+    city: 'Cologne',
+    country: 'Germany',
+  },
   'red-lion-leytonstone': {
     name: 'The Red Lion',
     borough: 'Leytonstone',
@@ -276,6 +341,11 @@ const venues = {
     name: 'Signature Brew',
     borough: 'Haggerston',
     city: 'London',
+    country: 'UK',
+  },
+  'the-star-inn-ashford': {
+    name: 'The Star Inn',
+    city: 'Ashford',
     country: 'UK',
   },
   'the-pump-trowbridge': {
@@ -374,7 +444,7 @@ export const pastShows = [
     6,
     21,
     'ivy-house-nunhead',
-    ['tethered', 'ritual-error', 'arches'],
+    ['tethered', 'ritual-error', 'achers'],
     [3, 6, 0, 4, 2, 5, 7, 1]
   ),
   buildShow(
@@ -499,14 +569,41 @@ export const pastShows = [
     ['tethered', 'louse', 'kill-the-snitch'],
     [3, 7, 13, 'c0', 9, 6, 'c1']
   ),
-];
-
-export const futureShows = [buildShow(
+  buildShow(
     2025,
     11,
     21,
     'birds-nest',
     ['tethered', 'moist-crevice', 'stupid-world'],
-    []
-  ),];
+    [12, 6, 9, 7, 13, 5, 10, 14, 11]
+  ),
+];
 
+export const futureShows = [
+  buildShow(
+    2025,
+    11,
+    24,
+    'the-star-inn-ashford',
+    ['tethered', 'ritual-error', 'sarah-tonin', 'coder', 'try-hard'],
+    []
+  ),
+  buildShow(
+    2025,
+    11,
+    26,
+    'poortgebouw',
+    ['tethered', 'meditation', 'dodentocht'],
+    []
+  ),
+  buildShow(2025, 11, 28, 'fla-fla', ['tu-la-llevas', 'gulls', 'tethered'], []),
+  buildShow(
+    2025,
+    11,
+    29,
+    'privat',
+    ['placid', 'wonderful-world', 'tethered', 'i-recover'],
+    []
+  ),
+  buildShow(2025, 11, 30, 'high-voltage-bar', ['tethered', 'cephalee'], []),
+];
