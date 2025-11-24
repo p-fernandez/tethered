@@ -107,8 +107,9 @@ const bands = {
     name: 'Gross Misconduct',
     url: '',
   },
-  gulls: {
-    name: 'Gulls',
+  gvlls: {
+    name: 'Gvlls',
+    city: 'Münster',
     country: 'Germany',
   },
   'hearing-tests': {
@@ -596,7 +597,7 @@ export const futureShows = [
     ['tethered', 'meditation', 'dodentocht'],
     []
   ),
-  buildShow(2025, 11, 28, 'fla-fla', ['tu-la-llevas', 'gulls', 'tethered'], []),
+  buildShow(2025, 11, 28, 'fla-fla', ['tu-la-llevas', 'gvlls', 'tethered'], []),
   buildShow(
     2025,
     11,
