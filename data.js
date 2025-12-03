@@ -157,6 +157,9 @@ const bands = {
     name: 'Moist Crevice',
     url: '',
   },
+  neversaid: {
+    name: 'Neversaid',
+  },
   nix: {
     name: 'Nix',
   },
@@ -578,16 +581,13 @@ export const pastShows = [
     ['tethered', 'moist-crevice', 'stupid-world'],
     [12, 6, 9, 7, 13, 5, 10, 14, 11]
   ),
-];
-
-export const futureShows = [
   buildShow(
     2025,
     11,
     24,
     'the-star-inn-ashford',
     ['tethered', 'ritual-error', 'sarah-tonin', 'coder', 'try-hard'],
-    []
+    [14, 11, 2, 10, 3, 6, 9, 13]
   ),
   buildShow(
     2025,
@@ -595,16 +595,41 @@ export const futureShows = [
     26,
     'poortgebouw',
     ['tethered', 'meditation', 'dodentocht'],
-    []
+    [14, 11, 2, 10, 3, 6, 9, 13]
   ),
-  buildShow(2025, 11, 28, 'fla-fla', ['tu-la-llevas', 'gvlls', 'tethered'], []),
+  buildShow(
+    2025,
+    11,
+    28,
+    'fla-fla',
+    ['tethered', 'tu-la-llevas', 'gvlls'],
+    [14, 11, 2, 10, 3, 6, 9, 13]
+  ),
   buildShow(
     2025,
     11,
     29,
     'privat',
     ['placid', 'wonderful-world', 'tethered', 'i-recover'],
-    []
+    [14, 11, 2, 10, 3, 6, 9, 13]
   ),
-  buildShow(2025, 11, 30, 'high-voltage-bar', ['tethered', 'cephalee'], []),
+  buildShow(
+    2025,
+    11,
+    30,
+    'high-voltage-bar',
+    ['tethered', 'cephalee'],
+    [14, 11, 2, 10, 3, 6, 9, 13, 12]
+  ),
+];
+
+export const futureShows = [
+  buildShow(
+    2025,
+    12,
+    18,
+    'new-cross-inn',
+    ['neversaid', 'tethered', 'hearing-tests', 'kill-the-snitch']
+    // [14, 11, 2, 10, 3, 6, 9, 13]
+  ),
 ];

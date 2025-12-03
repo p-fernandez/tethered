@@ -489,23 +489,18 @@ body:not(:has(:target)) .nav-menu a[href="#home"] {
   margin-top: 20px;
 }
 
-.carousel-dot {
-  font-size: 24px;
-  color: var(--tethered-blue-dark);
-  cursor: pointer;
-  transition: all 0.3s;
-  user-select: none;
-}
-
-.carousel-dot:hover {
+.carousel-indicator {
+  font-size: 20px;
+  font-weight: bold;
   color: var(--tethered-blue);
-  transform: scale(1.2);
-}
-
-.carousel-dots {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+  padding: 10px 20px;
+  border: 3px solid var(--tethered-blue);
+  background-color: #000000;
+  box-shadow: 4px 4px 0 var(--tethered-blue-dark);
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-align: center;
+  user-select: none;
 }
 
 .setlist {
@@ -741,14 +736,11 @@ body:not(:has(:target)) .nav-menu a[href="#home"] {
     flex-wrap: wrap;
   }
 
-  .carousel-dots {
-    gap: 8px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .carousel-dot {
-    font-size: 20px;
+  .carousel-indicator {
+    font-size: 16px;
+    padding: 8px 15px;
+    min-width: 80px;
+    box-shadow: 3px 3px 0 var(--tethered-blue-dark);
   }
 
   /* Placeholder box responsive */
