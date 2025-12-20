@@ -145,6 +145,9 @@ const bands = {
     name: 'Layback',
     url: '',
   },
+  'lets-av-it': {
+    name: `Let's Av It`,
+  },
   louse: {
     name: 'Louse',
   },
@@ -162,6 +165,10 @@ const bands = {
   },
   nix: {
     name: 'Nix',
+  },
+  'nø-man': {
+    name: 'Nø Man',
+    country: 'USA',
   },
   'no-relief': {
     name: 'No Relief',
@@ -184,6 +191,9 @@ const bands = {
     name: 'Prey',
     url: '',
     country: 'UK',
+  },
+  'rats-nest': {
+    name: 'Rats Nest',
   },
   'restraining-order': {
     name: 'Restraining Order',
@@ -298,6 +308,11 @@ const venues = {
     city: 'Lille',
     country: 'France',
   },
+  'hoffs-margate': {
+    name: 'Hoffs',
+    city: 'Margate',
+    country: 'UK',
+  },
   'hope-and-anchor': {
     name: 'The Hope & Anchor',
     borough: 'Islington',
@@ -315,6 +330,11 @@ const venues = {
     city: 'Nottingham',
     country: 'UK',
   },
+  'muthers-studio': {
+    name: 'Muthers Studio',
+    city: 'Birmingham',
+    country: 'UK',
+  },
   'new-cross-inn': {
     name: 'New Cross Inn',
     city: 'London',
@@ -323,6 +343,11 @@ const venues = {
   'new-river-studios': {
     name: 'New River Studios',
     city: 'London',
+    country: 'UK',
+  },
+  norwich: {
+    name: 'Norwich',
+    city: 'Norwich',
     country: 'UK',
   },
   poortgebouw: {
@@ -339,6 +364,11 @@ const venues = {
     name: 'The Red Lion',
     borough: 'Leytonstone',
     city: 'London',
+    country: 'UK',
+  },
+  shrewsbury: {
+    name: 'Shrewsbury',
+    city: 'Shrewsbury',
     country: 'UK',
   },
   'signature-brew-hag': {
@@ -363,11 +393,17 @@ const venues = {
     city: 'London',
     country: 'UK',
   },
+  'walthamstow-trades-hall': {
+    name: 'Walthamstow Trades Hall',
+    borough: 'Walthamstow',
+    city: 'London',
+    country: 'UK',
+  },
 };
 
-const renderBandCountry = (country) => (country ? `(${country})` : '');
-const renderBand = (band) =>
-  `${band?.name} ${renderBandCountry(band?.country)}`;
+const renderBandCountry = (country) =>
+  country && country !== 'UK' ? ` (${country})` : '';
+const renderBand = (band) => `${band?.name}${renderBandCountry(band?.country)}`;
 
 const renderVenue = (venue) => {
   let info = venue.name;
@@ -621,15 +657,55 @@ export const pastShows = [
     ['tethered', 'cephalee'],
     [14, 11, 2, 10, 3, 6, 9, 13, 12]
   ),
-];
-
-export const futureShows = [
   buildShow(
     2025,
     12,
     18,
     'new-cross-inn',
-    ['neversaid', 'tethered', 'hearing-tests', 'kill-the-snitch']
-    // [14, 11, 2, 10, 3, 6, 9, 13]
+    ['neversaid', 'tethered', 'hearing-tests', 'kill-the-snitch'],
+    [14, 11, 2, 10, 3, 6, 9, 13]
+  ),
+];
+
+export const futureShows = [
+  buildShow(
+    2026,
+    1,
+    30,
+    'hoffs-margate',
+    ['tethered', 'rats-nest', 'lets-av-it']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    3,
+    6,
+    'walthamstow-trades-hall',
+    ['higher-walls', 'tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    3,
+    27,
+    'shrewsbury',
+    ['grim-harvest', 'tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    3,
+    28,
+    'muthers-studio',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    3,
+    29,
+    'norwich',
+    ['nø-man', 'grim-harvest', 'tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
 ];
