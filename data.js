@@ -35,6 +35,9 @@ const bands = {
   'benny-lager': {
     name: 'Benny Lager & The Tops',
   },
+  birdwitch: {
+    name: 'Birdwitch',
+  },
   'bitchfinder-general': {
     name: 'Bitchfinder General',
   },
@@ -156,6 +159,9 @@ const bands = {
     city: 'Groningen',
     country: 'Netherlands',
   },
+  millpool: {
+    name: 'Millpool',
+  },
   'moist-crevice': {
     name: 'Moist Crevice',
     url: '',
@@ -214,6 +220,12 @@ const bands = {
   'sarah-tonin': {
     name: 'Sarah Tonin',
   },
+  scadenza: {
+    name: 'Scadenza',
+  },
+  'sevy-verna': {
+    name: 'Sevy Verna',
+  },
   'single-mothers': {
     name: 'Single Mothers',
     country: 'CAN',
@@ -223,6 +235,9 @@ const bands = {
   },
   'stupid-world': {
     name: 'Stupid World',
+  },
+  supernova: {
+    name: 'Supernova',
   },
   tethered: {
     name: 'Tethered',
@@ -274,6 +289,12 @@ const venues = {
   'cav-arms-stockwell': {
     name: 'The Cavendish Arms',
     borough: 'Stockwell',
+    city: 'London',
+    country: 'UK',
+  },
+  clapton: {
+    name: 'TBD',
+    borough: 'Clapton',
     city: 'London',
     country: 'UK',
   },
@@ -665,24 +686,24 @@ export const pastShows = [
     ['neversaid', 'tethered', 'hearing-tests', 'kill-the-snitch'],
     [14, 11, 2, 10, 3, 6, 9, 13]
   ),
-];
-
-export const futureShows = [
   buildShow(
     2026,
     1,
     30,
     'hoffs-margate',
-    ['tethered', 'rats-nest', 'lets-av-it']
-    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+    ['tethered', 'rats-nest', 'lets-av-it'],
+    [9, 2, 10, 6, 14, 13, 12]
   ),
+];
+
+export const futureShows = [
   buildShow(
     2026,
     3,
     6,
     'walthamstow-trades-hall',
-    ['higher-walls', 'tethered']
-    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+    ['higher-walls', 'tethered', 'millpool']
+    //,[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
   buildShow(
     2026,
@@ -705,7 +726,31 @@ export const futureShows = [
     3,
     29,
     'norwich',
-    ['nø-man', 'grim-harvest', 'tethered']
+    ['nø-man', 'birdwitch', 'grim-harvest', 'tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    3,
+    30,
+    'new-cross-inn',
+    ['nø-man', 'supernova', 'tethered', 'scadenza', 'sevy-verna']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    6,
+    20,
+    'clapton',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    8,
+    9,
+    'new-cross-inn',
+    ['supernova', 'tethered']
     //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
 ];
