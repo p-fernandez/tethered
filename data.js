@@ -41,6 +41,10 @@ const bands = {
   'bitchfinder-general': {
     name: 'Bitchfinder General',
   },
+  brach: {
+    name: 'Brach',
+    country: 'D',
+  },
   brie: {
     name: 'Brie',
   },
@@ -97,6 +101,10 @@ const bands = {
     name: 'Fosco',
     country: 'E',
   },
+  'fuzzy-heart': {
+    name: 'Fuzzy Heart',
+    country: 'UK',
+  },
   'gay-skeleton-club': {
     name: 'Gay Skeleton Club',
   },
@@ -114,6 +122,9 @@ const bands = {
     name: 'Gvlls',
     city: 'Münster',
     country: 'Germany',
+  },
+  'half-brick': {
+    name: 'Half Brick',
   },
   'hearing-tests': {
     name: 'Hearing Tests',
@@ -198,6 +209,11 @@ const bands = {
     url: '',
     country: 'UK',
   },
+  'priest-crippler': {
+    name: 'Priest Crippler',
+    url: '',
+    country: 'UK',
+  },
   'rats-nest': {
     name: 'Rats Nest',
   },
@@ -254,6 +270,10 @@ const bands = {
   'try-hard': {
     name: 'Try Hard',
   },
+  uptight: {
+    name: 'Uptight',
+    country: 'UK',
+  },
   'winifer-odd': {
     name: 'Winifer Odd',
     url: '',
@@ -301,6 +321,11 @@ const venues = {
   'dulwich-dch': {
     name: 'Dulwich Hamlet Clubhouse',
     city: 'London',
+    country: 'UK',
+  },
+  'english-bridge-studios': {
+    name: 'English Bridge Studios',
+    city: 'Shrewsbury',
     country: 'UK',
   },
   'face-bar-reading': {
@@ -366,11 +391,6 @@ const venues = {
     city: 'London',
     country: 'UK',
   },
-  norwich: {
-    name: 'Norwich',
-    city: 'Norwich',
-    country: 'UK',
-  },
   poortgebouw: {
     name: 'Poortgebouw',
     city: 'Rotterdam',
@@ -387,15 +407,20 @@ const venues = {
     city: 'London',
     country: 'UK',
   },
-  shrewsbury: {
-    name: 'Shrewsbury',
-    city: 'Shrewsbury',
-    country: 'UK',
-  },
   'signature-brew-hag': {
     name: 'Signature Brew',
     borough: 'Haggerston',
     city: 'London',
+    country: 'UK',
+  },
+  southampton: {
+    name: 'Southampton',
+    city: 'Southampton',
+    country: 'UK',
+  },
+  'the-holloway': {
+    name: 'The Holloway',
+    city: 'Norwich',
     country: 'UK',
   },
   'the-star-inn-ashford': {
@@ -406,6 +431,12 @@ const venues = {
   'the-pump-trowbridge': {
     name: 'The Pump',
     city: 'Trowbridge',
+    country: 'UK',
+  },
+  'the-victoria': {
+    name: 'The Victoria',
+    borough: 'Dalston',
+    city: 'London',
     country: 'UK',
   },
   'two-palms': {
@@ -694,23 +725,23 @@ export const pastShows = [
     ['tethered', 'rats-nest', 'lets-av-it'],
     [9, 2, 10, 6, 14, 13, 12]
   ),
+  buildShow(
+    2026,
+    3,
+    6,
+    'walthamstow-trades-hall',
+    ['tethered', 'higher-walls', 'millpool'],
+    [9, 2, 10, 8, 6, 14, 11, 12, 13]
+  ),
 ];
 
 export const futureShows = [
   buildShow(
     2026,
     3,
-    6,
-    'walthamstow-trades-hall',
-    ['higher-walls', 'tethered', 'millpool']
-    //,[(14, 11, 2, 10, 3, 6, 9, 13)]
-  ),
-  buildShow(
-    2026,
-    3,
     27,
-    'shrewsbury',
-    ['grim-harvest', 'tethered']
+    'english-bridge-studios',
+    ['grim-harvest', 'tethered', 'half-brick']
     //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
   buildShow(
@@ -718,14 +749,14 @@ export const futureShows = [
     3,
     28,
     'muthers-studio',
-    ['tethered']
+    ['tethered', 'priest-crippler', 'uptight']
     //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
   buildShow(
     2026,
     3,
     29,
-    'norwich',
+    'the-holloway',
     ['nø-man', 'birdwitch', 'grim-harvest', 'tethered']
     //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
@@ -739,10 +770,26 @@ export const futureShows = [
   ),
   buildShow(
     2026,
-    6,
-    20,
-    'clapton',
+    4,
+    9,
+    'the-victoria',
+    ['other-half', 'tethered', 'fuzzy-heart']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    5,
+    30,
+    'southampton',
     ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    7,
+    19,
+    'calamity-tank',
+    ['brach', 'efbas', 'tethered']
     //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
   buildShow(
