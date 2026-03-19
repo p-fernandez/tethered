@@ -97,6 +97,9 @@ const bands = {
   'final-form': {
     name: 'Final Form',
   },
+  'fly-fly-triceratops': {
+    name: 'Fly Fly Triceratops',
+  },
   fosco: {
     name: 'Fosco',
     country: 'E',
@@ -262,6 +265,9 @@ const bands = {
   'the-talking-kinds': {
     name: 'The Talking Kinds',
     url: '',
+  },
+  'the-yatch-club': {
+    name: 'The Yatch Club',
   },
   'tu-la-llevas': {
     name: 'Tú La Llevas',
@@ -773,7 +779,7 @@ export const futureShows = [
     4,
     9,
     'the-victoria',
-    ['other-half', 'tethered', 'fuzzy-heart']
+    ['the-yatch-club', 'tethered', 'fuzzy-heart', 'fly-fly-triceratops']
     //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
   buildShow(
