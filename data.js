@@ -739,41 +739,41 @@ export const pastShows = [
     ['tethered', 'higher-walls', 'millpool'],
     [9, 2, 10, 8, 6, 14, 11, 12, 13]
   ),
-];
-
-export const futureShows = [
   buildShow(
     2026,
     3,
     27,
     'english-bridge-studios',
-    ['grim-harvest', 'tethered', 'half-brick']
-    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+    ['grim-harvest', 'tethered', 'half-brick'],
+    [7, 2, 12, 10, 9, 11, 14, 13, 6]
   ),
   buildShow(
     2026,
     3,
     28,
     'muthers-studio',
-    ['tethered', 'priest-crippler', 'uptight']
-    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+    ['tethered', 'priest-crippler', 'uptight'],
+    [7, 2, 12, 10, 9, 14, 13, 6]
   ),
   buildShow(
     2026,
     3,
     29,
     'the-holloway',
-    ['nø-man', 'birdwitch', 'grim-harvest', 'tethered']
-    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+    ['nø-man', 'birdwitch', 'grim-harvest', 'tethered'],
+    [2, 12, 10, 9, 14, 13, 6]
   ),
   buildShow(
     2026,
     3,
     30,
     'new-cross-inn',
-    ['nø-man', 'supernova', 'tethered', 'scadenza', 'sevy-verna']
-    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+    ['nø-man', 'supernova', 'tethered', 'scadenza', 'sevy-verna'],
+    [2, 12, 10, 9, 14, 13, 6]
   ),
+];
+
+export const futureShows = [
   buildShow(
     2026,
     4,
