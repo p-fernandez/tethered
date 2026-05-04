@@ -295,6 +295,17 @@ const bands = {
 };
 
 const venues = {
+  almeria: {
+    name: '?',
+    city: 'Almería',
+    country: 'Spain',
+  },
+  asturias: {
+    name: '?',
+    city: 'Asturias',
+    country: 'Spain',
+  },
+
   blondies: {
     name: 'Blondies',
     borough: 'Clapton',
@@ -328,6 +339,16 @@ const venues = {
     name: 'Dulwich Hamlet Clubhouse',
     city: 'London',
     country: 'UK',
+  },
+  'el-perro-perdedor': {
+    name: 'El Perro Perdedor',
+    city: 'Don Benito',
+    country: 'Spain',
+  },
+  elx: {
+    name: '?',
+    city: 'Elx',
+    country: 'Spain',
   },
   'english-bridge-studios': {
     name: 'English Bridge Studios',
@@ -382,6 +403,16 @@ const venues = {
     city: 'Nottingham',
     country: 'UK',
   },
+  madrid: {
+    name: '?',
+    city: 'Madrid',
+    country: 'Spain',
+  },
+  malaga: {
+    name: '?',
+    city: 'Málaga',
+    country: 'Spain',
+  },
   'muthers-studio': {
     name: 'Muthers Studio',
     city: 'Birmingham',
@@ -402,6 +433,11 @@ const venues = {
     city: 'Rotterdam',
     country: 'Netherlands',
   },
+  porto: {
+    name: '?',
+    city: 'Porto',
+    country: 'Portugal',
+  },
   privat: {
     name: 'Privat',
     city: 'Cologne',
@@ -412,6 +448,11 @@ const venues = {
     borough: 'Leytonstone',
     city: 'London',
     country: 'UK',
+  },
+  'sala-fantastica': {
+    name: 'Sala Fantástica',
+    city: 'Santiago de Compostela',
+    country: 'Spain',
   },
   'signature-brew-hag': {
     name: 'Signature Brew',
@@ -771,17 +812,17 @@ export const pastShows = [
     ['nø-man', 'supernova', 'tethered', 'scadenza', 'sevy-verna'],
     [2, 12, 10, 9, 14, 13, 6]
   ),
-];
-
-export const futureShows = [
   buildShow(
     2026,
     4,
     9,
     'the-victoria',
-    ['the-yatch-club', 'tethered', 'fuzzy-heart', 'fly-fly-triceratops']
-    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+    ['the-yatch-club', 'tethered', 'fuzzy-heart', 'fly-fly-triceratops'],
+    [7, 2, 12, 10, 9, 14, 13]
   ),
+];
+
+export const futureShows = [
   buildShow(
     2026,
     5,
@@ -804,6 +845,78 @@ export const futureShows = [
     9,
     'new-cross-inn',
     ['supernova', 'tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    4,
+    'porto',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    5,
+    'el-perro-perdedor',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    6,
+    'malaga',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    7,
+    'almeria',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    8,
+    'elx',
+    ['tethered', 'fosco']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    9,
+    'madrid',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    10,
+    'asturias',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2026,
+    9,
+    11,
+    'sala-fantastica',
+    ['tethered']
+    //[(14, 11, 2, 10, 3, 6, 9, 13)]
+  ),
+  buildShow(
+    2027,
+    2,
+    27,
+    'walthamstow-trades-hall',
+    ['tethered']
     //[(14, 11, 2, 10, 3, 6, 9, 13)]
   ),
 ];
