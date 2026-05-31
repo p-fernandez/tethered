@@ -327,7 +327,7 @@ export const pastShows = [
     2026,
     5,
     30,
-    'southampton',
+    'planet-sounds',
     ['tethered', 'skulker', 'dark-forest-theory'],
     [7, 2, 12, 10, 9, 11, 14, 13, 6]
   ),

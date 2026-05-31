@@ -137,6 +137,11 @@ export const venues = {
     city: 'London',
     country: 'UK',
   },
+  'planet-sounds': {
+    name: 'Planet Sounds',
+    city: 'Southampton',
+    country: 'UK',
+  },
   poortgebouw: {
     name: 'Poortgebouw',
     city: 'Rotterdam',
@@ -167,11 +172,6 @@ export const venues = {
     name: 'Signature Brew',
     borough: 'Haggerston',
     city: 'London',
-    country: 'UK',
-  },
-  southampton: {
-    name: 'Southampton',
-    city: 'Southampton',
     country: 'UK',
   },
   'the-holloway': {
