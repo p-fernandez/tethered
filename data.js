@@ -339,7 +339,17 @@ export const futureShows = [
     6,
     21,
     'the-old-spotted-dog-ground',
-    ['tethered'],
+    [
+      'dakka-skanks',
+      'grail-guard',
+      'mashaal',
+      'baldhead',
+      'tim-wells',
+      'snatch',
+      'tethered',
+      'hemiptera',
+      'bullet',
+    ],
     [],
     'Clapton Punks 10 year Anniversary Gig'
   ),
@@ -357,7 +367,12 @@ export const futureShows = [
     'getting-off',
     'tethered',
   ]),
-  buildShow(2026, 9, 4, 'porto', ['tethered']),
+  buildShow(2026, 8, 24, 'down-by-here', [
+    'tethered',
+    'on-a-broken-edge',
+    'made-of',
+  ]),
+  buildShow(2026, 9, 4, 'damas-lisboa', ['tethered']),
   buildShow(2026, 9, 5, 'el-perro-perdedor', [
     'notes-to-myself',
     'tethered',

@@ -9,6 +9,9 @@ export const bands = {
     name: 'Bad Egg',
     country: 'CAN',
   },
+  baldhead: {
+    name: 'Baldhead',
+  },
   bale: {
     name: 'Bale',
   },
@@ -36,6 +39,9 @@ export const bands = {
   'broken-lungs': {
     name: 'Broken Lungs',
   },
+  bullet: {
+    name: 'Bullet',
+  },
   cephalee: {
     name: 'Céphalée',
     city: 'Lille',
@@ -49,6 +55,9 @@ export const bands = {
   },
   coder: {
     name: 'Coder',
+  },
+  'dakka-skanks': {
+    name: 'Dakka Skanks',
   },
   'dark-forest-theory': {
     name: 'Dark Forest Theory',
@@ -98,7 +107,7 @@ export const bands = {
   },
   fosco: {
     name: 'Fosco',
-    country: 'E',
+    country: 'Spain',
   },
   'fuzzy-heart': {
     name: 'Fuzzy Heart',
@@ -112,6 +121,9 @@ export const bands = {
   },
   glu: {
     name: 'GLU',
+  },
+  'grail-guard': {
+    name: 'Grail Guard',
   },
   'grim-harvest': {
     name: 'Grim Harvest',
@@ -130,6 +142,9 @@ export const bands = {
   },
   'hearing-tests': {
     name: 'Hearing Tests',
+  },
+  hemiptera: {
+    name: 'Hemiptera',
   },
   'higher-walls': {
     name: 'Higher Walls',
@@ -175,10 +190,17 @@ export const bands = {
   louse: {
     name: 'Louse',
   },
+  'made-of': {
+    name: 'Made Of',
+    country: 'Wales',
+  },
   masa: {
     name: 'Masa',
     city: 'Sevilla',
     country: 'Spain',
+  },
+  mashaal: {
+    name: 'Mashaal',
   },
   meditation: {
     name: 'Meditation',
@@ -217,6 +239,10 @@ export const bands = {
   },
   nylon: {
     name: 'Nylon',
+  },
+  'on-a-broken-edge': {
+    name: 'On A Broken Edge',
+    country: 'Wales',
   },
   'other-half': {
     name: 'Other Half',
@@ -275,6 +301,9 @@ export const bands = {
   'sevy-verna': {
     name: 'Sevy Verna',
   },
+  snatch: {
+    name: 'Snatch',
+  },
   'single-mothers': {
     name: 'Single Mothers',
     country: 'CAN',
@@ -312,6 +341,9 @@ export const bands = {
   },
   'the-yatch-club': {
     name: 'The Yatch Club',
+  },
+  'tim-wells': {
+    name: 'Tim Wells',
   },
   'tu-la-llevas': {
     name: 'Tú La Llevas',

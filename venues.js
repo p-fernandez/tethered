@@ -12,41 +12,51 @@ export const venues = {
   'birds-nest': {
     name: 'The Birds Nest',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   blondies: {
     name: 'Blondies',
     borough: 'Clapton',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'blondies-brewery': {
     name: 'Blondies Brewery',
     borough: 'Clapton',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'calamity-tank': {
     name: 'Calamity Tank',
     borough: 'Leytonstone',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'cav-arms-stockwell': {
     name: 'The Cavendish Arms',
     borough: 'Stockwell',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'csa-las-vegas': {
     name: 'CSA Las Vegas',
     city: 'Málaga',
     country: 'Spain',
   },
+  'damas-lisboa': {
+    name: 'Damas',
+    city: 'Lisboa',
+    country: 'Portugal',
+  },
+  'down-by-here': {
+    name: 'Down By Here',
+    city: 'Swansea',
+    country: 'Wales',
+  },
   'dulwich-dch': {
     name: 'Dulwich Hamlet Clubhouse',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'el-perro-perdedor': {
     name: 'El Perro Perdedor',
@@ -57,17 +67,17 @@ export const venues = {
     name: 'Endeavour',
     borough: 'Deptford',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'english-bridge-studios': {
     name: 'English Bridge Studios',
     city: 'Shrewsbury',
-    country: 'UK',
+    country: 'England',
   },
   'face-bar-reading': {
     name: 'The Face Bar',
     city: 'Reading',
-    country: 'UK',
+    country: 'England',
   },
   'fla-fla': {
     name: 'Fla Fla',
@@ -77,13 +87,13 @@ export const venues = {
   'grand-burstin-hotel': {
     name: 'The Grand Burstin Hotel',
     city: 'Folkenstone',
-    country: 'UK',
+    country: 'England',
   },
   helgis: {
     name: `Helgi's`,
     borough: 'Hackney',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'high-voltage-bar': {
     name: 'High Voltage Bar',
@@ -93,24 +103,24 @@ export const venues = {
   'hoffs-margate': {
     name: 'Hoffs',
     city: 'Margate',
-    country: 'UK',
+    country: 'England',
   },
   'hope-and-anchor': {
     name: 'The Hope & Anchor',
     borough: 'Islington',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'ivy-house-nunhead': {
     name: 'The Ivy House',
     borough: 'Nunhead',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'jt-soar': {
     name: 'JT Soar',
     city: 'Nottingham',
-    country: 'UK',
+    country: 'England',
   },
   'la-luna': {
     name: 'La Luna Pub',
@@ -125,22 +135,22 @@ export const venues = {
   'muthers-studio': {
     name: 'Muthers Studio',
     city: 'Birmingham',
-    country: 'UK',
+    country: 'England',
   },
   'new-cross-inn': {
     name: 'New Cross Inn',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'new-river-studios': {
     name: 'New River Studios',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'planet-sounds': {
     name: 'Planet Sounds',
     city: 'Southampton',
-    country: 'UK',
+    country: 'England',
   },
   poortgebouw: {
     name: 'Poortgebouw',
@@ -161,7 +171,7 @@ export const venues = {
     name: 'The Red Lion',
     borough: 'Leytonstone',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'sala-fantastica': {
     name: 'Sala Fantástica',
@@ -172,45 +182,45 @@ export const venues = {
     name: 'Signature Brew',
     borough: 'Haggerston',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'the-holloway': {
     name: 'The Holloway',
     city: 'Norwich',
-    country: 'UK',
+    country: 'England',
   },
   'the-old-spotted-dog-ground': {
     name: 'The Old Spotted Dog Groud',
     borough: 'Clapton',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'the-pump-trowbridge': {
     name: 'The Pump',
     city: 'Trowbridge',
-    country: 'UK',
+    country: 'England',
   },
   'the-star-inn-ashford': {
     name: 'The Star Inn',
     city: 'Ashford',
-    country: 'UK',
+    country: 'England',
   },
   'the-victoria': {
     name: 'The Victoria',
     borough: 'Dalston',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'two-palms': {
     name: 'Two Palms',
     borough: 'Hackney',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
   'walthamstow-trades-hall': {
     name: 'Walthamstow Trades Hall',
     borough: 'Walthamstow',
     city: 'London',
-    country: 'UK',
+    country: 'England',
   },
 };
