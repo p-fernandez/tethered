@@ -331,9 +331,6 @@ export const pastShows = [
     ['tethered', 'skulker', 'dark-forest-theory'],
     [7, 2, 12, 10, 9, 11, 14, 13, 6]
   ),
-];
-
-export const futureShows = [
   buildShow(
     2026,
     6,
@@ -350,15 +347,20 @@ export const futureShows = [
       'hemiptera',
       'bullet',
     ],
-    [],
+    [7, 2, 12, 10, 9, 14, 13, 6],
     'Clapton Punks 10 year Anniversary Gig'
   ),
-  buildShow(2026, 6, 25, 'endeavour', [
-    'sverker-clern',
-    'tethered',
-    'bale',
-    'forgiving',
-  ]),
+  buildShow(
+    2026,
+    6,
+    25,
+    'endeavour',
+    ['sverker-clern', 'tethered', 'bale', 'forgiving'],
+    [7, 2, 12, 10, 9, 14, 13, 6]
+  ),
+];
+
+export const futureShows = [
   buildShow(2026, 7, 19, 'calamity-tank', ['brach', 'efbas', 'tethered']),
   buildShow(2026, 8, 8, 'blondies-brewery', [
     'pest-control',
@@ -372,7 +374,11 @@ export const futureShows = [
     'on-a-broken-edge',
     'made-of',
   ]),
-  buildShow(2026, 9, 4, 'damas-lisboa', ['tethered']),
+  buildShow(2026, 9, 4, 'damas-lisboa', [
+    'tethered',
+    'spiritual-decay',
+    'dai-inera',
+  ]),
   buildShow(2026, 9, 5, 'el-perro-perdedor', [
     'notes-to-myself',
     'tethered',
@@ -381,16 +387,27 @@ export const futureShows = [
     'tentacula',
   ]),
   buildShow(2026, 9, 6, 'csa-las-vegas', ['tethered', 'pasado', 'durruti']),
-  buildShow(2026, 9, 7, 'almeria', ['tethered']),
+  buildShow(2026, 9, 7, 'zaguan-almeria', ['tethered']),
   buildShow(2026, 9, 8, 'la-luna', ['tethered', 'fosco']),
-  buildShow(2026, 9, 9, 'madrid', ['tethered']),
+  buildShow(2026, 9, 9, 'sala-la-trinchera', [
+    'tethered',
+    'dynastes',
+    'wulfcrown',
+  ]),
   buildShow(2026, 9, 10, 'asturias', ['tethered']),
   buildShow(2026, 9, 11, 'sala-fantastica', [
-    'tethered',
     'kuma',
     'noite-atari',
+    'tethered',
   ]),
-  buildShow(2027, 2, 27, 'walthamstow-trades-hall', ['tethered']),
+  buildShow(2026, 9, 19, 'new-river-studios', ['ritual-error', 'tethered']),
+  buildShow(
+    2027,
+    2,
+    27,
+    'walthamstow-trades-hall',
+    ['tethered'],
+    [],
+    'Smash The Fash Fest 2'
+  ),
 ];
-
-console.log({ pastShows });

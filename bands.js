@@ -56,6 +56,11 @@ export const bands = {
   coder: {
     name: 'Coder',
   },
+  'dai-inera': {
+    name: 'Dai Inera',
+    city: 'Setúbal',
+    country: 'Portugal',
+  },
   'dakka-skanks': {
     name: 'Dakka Skanks',
   },
@@ -86,6 +91,11 @@ export const bands = {
     name: 'Dynamite',
     url: '',
     country: 'UK',
+  },
+  dynastes: {
+    name: 'Dynastes',
+    city: 'Toledo / Madrid',
+    country: 'Spain',
   },
   efbas: {
     name: 'Every Face Becomes A Skull',
@@ -314,6 +324,11 @@ export const bands = {
   smothering: {
     name: 'Smothering',
   },
+  'spiritual-decay': {
+    name: 'Spiritual Decay',
+    city: 'Lisboa',
+    country: 'Portugal',
+  },
   'stiff-meds': {
     name: 'Stiff Meds',
   },
@@ -359,6 +374,11 @@ export const bands = {
   'winifer-odd': {
     name: 'Winifer Odd',
     url: '',
+  },
+  wulfcrown: {
+    name: 'Wülfcrown',
+    city: 'Madrid',
+    country: 'Spain',
   },
   'wonderful-world': {
     name: 'Wonderful World',

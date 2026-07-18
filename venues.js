@@ -178,6 +178,11 @@ export const venues = {
     city: 'Santiago de Compostela',
     country: 'Spain',
   },
+  'sala-la-trinchera': {
+    name: 'Sala La Trinchera',
+    city: 'Madrid',
+    country: 'Spain',
+  },
   'signature-brew-hag': {
     name: 'Signature Brew',
     borough: 'Haggerston',
@@ -222,5 +227,10 @@ export const venues = {
     borough: 'Walthamstow',
     city: 'London',
     country: 'England',
+  },
+  'zaguan-almeria': {
+    name: 'Zaguán',
+    city: 'Almería',
+    country: 'Spain',
   },
 };
