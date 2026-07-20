@@ -53,6 +53,9 @@ export const bands = {
   'chasing-dolls': {
     name: 'Chasing Dolls',
   },
+  cobbler: {
+    name: 'Cobbler',
+  },
   coder: {
     name: 'Coder',
   },
@@ -125,9 +128,6 @@ export const bands = {
   },
   'gay-skeleton-club': {
     name: 'Gay Skeleton Club',
-  },
-  'getting-off': {
-    name: 'Getting Off',
   },
   glu: {
     name: 'GLU',
@@ -265,9 +265,6 @@ export const bands = {
     city: 'Almería',
     country: 'Spain',
   },
-  'pest-control': {
-    name: 'Pest Control',
-  },
   placid: {
     name: 'Placid',
     city: 'Cologne',
@@ -328,9 +325,6 @@ export const bands = {
     name: 'Spiritual Decay',
     city: 'Lisboa',
     country: 'Portugal',
-  },
-  'stiff-meds': {
-    name: 'Stiff Meds',
   },
   'stupid-world': {
     name: 'Stupid World',

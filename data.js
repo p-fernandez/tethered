@@ -358,22 +358,23 @@ export const pastShows = [
     ['sverker-clern', 'tethered', 'bale', 'forgiving'],
     [7, 2, 12, 10, 9, 14, 13, 6]
   ),
+  buildShow(
+    2026,
+    7,
+    19,
+    'calamity-tank',
+    ['brach', 'efbas', 'tethered'],
+    [12, 10, 9, 14, 13, 6]
+  ),
 ];
 
 export const futureShows = [
-  buildShow(2026, 7, 19, 'calamity-tank', ['brach', 'efbas', 'tethered']),
-  buildShow(2026, 8, 8, 'blondies-brewery', [
-    'pest-control',
-    'jawless',
-    'stiff-meds',
-    'getting-off',
-    'tethered',
-  ]),
-  buildShow(2026, 8, 24, 'down-by-here', [
+  buildShow(2026, 7, 24, 'down-by-here', [
     'tethered',
     'on-a-broken-edge',
     'made-of',
   ]),
+  buildShow(2026, 8, 8, 'blondies-brewery', ['cobbler', 'jawless', 'tethered']),
   buildShow(2026, 9, 4, 'damas-lisboa', [
     'tethered',
     'spiritual-decay',
