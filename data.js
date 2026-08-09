@@ -366,15 +366,25 @@ export const pastShows = [
     ['brach', 'efbas', 'tethered'],
     [12, 10, 9, 14, 13, 6]
   ),
+  buildShow(
+    2026,
+    7,
+    24,
+    'down-by-here',
+    ['tethered', 'on-a-broken-edge', 'made-of'],
+    [3, 11, 8, 6, 9, 10, 14, 12, 13]
+  ),
+  buildShow(
+    2026,
+    8,
+    8,
+    'blondies-brewery',
+    ['cobbler', 'jawless', 'tethered'],
+    [11, 2, 6, 10, 9, 14, 12, 13]
+  ),
 ];
 
 export const futureShows = [
-  buildShow(2026, 7, 24, 'down-by-here', [
-    'tethered',
-    'on-a-broken-edge',
-    'made-of',
-  ]),
-  buildShow(2026, 8, 8, 'blondies-brewery', ['cobbler', 'jawless', 'tethered']),
   buildShow(2026, 9, 4, 'damas-lisboa', [
     'tethered',
     'spiritual-decay',
@@ -389,7 +399,7 @@ export const futureShows = [
   ]),
   buildShow(2026, 9, 6, 'csa-las-vegas', ['tethered', 'pasado', 'durruti']),
   buildShow(2026, 9, 7, 'zaguan-almeria', ['tethered']),
-  buildShow(2026, 9, 8, 'la-luna', ['tethered', 'fosco']),
+  buildShow(2026, 9, 8, 'la-luna', ['tethered', 'dynastes']),
   buildShow(2026, 9, 9, 'sala-la-trinchera', [
     'tethered',
     'dynastes',
@@ -401,7 +411,12 @@ export const futureShows = [
     'noite-atari',
     'tethered',
   ]),
-  buildShow(2026, 9, 19, 'new-river-studios', ['ritual-error', 'tethered']),
+  buildShow(2026, 9, 19, 'new-river-studios', [
+    'ritual-error',
+    'grunt',
+    'tethered',
+    'sinews',
+  ]),
   buildShow(
     2027,
     2,

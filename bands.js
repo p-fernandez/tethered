@@ -142,6 +142,9 @@ export const bands = {
     name: 'Gross Misconduct',
     url: '',
   },
+  grunt: {
+    name: 'Grunt',
+  },
   gvlls: {
     name: 'Gvlls',
     city: 'Münster',
@@ -308,8 +311,8 @@ export const bands = {
   'sevy-verna': {
     name: 'Sevy Verna',
   },
-  snatch: {
-    name: 'Snatch',
+  sinews: {
+    name: 'Sinews',
   },
   'single-mothers': {
     name: 'Single Mothers',
@@ -320,6 +323,9 @@ export const bands = {
   },
   smothering: {
     name: 'Smothering',
+  },
+  snatch: {
+    name: 'Snatch',
   },
   'spiritual-decay': {
     name: 'Spiritual Decay',
@@ -341,7 +347,7 @@ export const bands = {
     country: 'Spain',
   },
   tethered: {
-    name: 'Tethered',
+    name: 'tethered',
     url: 'https://luxorbeam.com',
   },
   'the-talking-kinds': {
