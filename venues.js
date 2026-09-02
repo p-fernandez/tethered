@@ -26,6 +26,11 @@ export const venues = {
     city: 'London',
     country: 'England',
   },
+  'bola-8-xixon': {
+    name: 'Bola 8',
+    city: 'Xixón',
+    country: 'Spain',
+  },
   'calamity-tank': {
     name: 'Calamity Tank',
     borough: 'Leytonstone',
@@ -229,7 +234,7 @@ export const venues = {
     country: 'England',
   },
   'zaguan-almeria': {
-    name: 'Zaguán',
+    name: 'El ZH20N',
     city: 'Almería',
     country: 'Spain',
   },

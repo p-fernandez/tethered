@@ -42,6 +42,9 @@ export const bands = {
   bullet: {
     name: 'Bullet',
   },
+  'burn-brighter': {
+    name: 'Burn Brighter',
+  },
   cephalee: {
     name: 'Céphalée',
     city: 'Lille',
@@ -200,6 +203,11 @@ export const bands = {
   'lets-av-it': {
     name: `Let's Av It`,
   },
+  lipotimia: {
+    name: 'Lipotimia',
+    city: 'Xixón',
+    country: 'Spain',
+  },
   louse: {
     name: 'Louse',
   },
@@ -265,6 +273,11 @@ export const bands = {
   },
   pasado: {
     name: 'Pasado',
+    city: 'Almería',
+    country: 'Spain',
+  },
+  piko: {
+    name: 'Piko',
     city: 'Almería',
     country: 'Spain',
   },

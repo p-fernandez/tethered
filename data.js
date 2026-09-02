@@ -398,14 +398,14 @@ export const futureShows = [
     'tentacula',
   ]),
   buildShow(2026, 9, 6, 'csa-las-vegas', ['tethered', 'pasado', 'durruti']),
-  buildShow(2026, 9, 7, 'zaguan-almeria', ['tethered']),
+  buildShow(2026, 9, 7, 'zaguan-almeria', ['tethered', 'piko']),
   buildShow(2026, 9, 8, 'la-luna', ['tethered', 'dynastes']),
   buildShow(2026, 9, 9, 'sala-la-trinchera', [
     'tethered',
     'dynastes',
     'wulfcrown',
   ]),
-  buildShow(2026, 9, 10, 'asturias', ['tethered']),
+  buildShow(2026, 9, 10, 'bola-8-xixon', ['tethered', 'lipotimia']),
   buildShow(2026, 9, 11, 'sala-fantastica', [
     'kuma',
     'noite-atari',
@@ -417,6 +417,7 @@ export const futureShows = [
     'tethered',
     'sinews',
   ]),
+  buildShow(2026, 12, 10, 'blondies', ['burn-brighter', 'tethered']),
   buildShow(
     2027,
     2,
